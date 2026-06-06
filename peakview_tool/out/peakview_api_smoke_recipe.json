@@ -60,7 +60,7 @@
   ], 
   "ok": true, 
   "profile": "RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)", 
-  "project": "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview", 
+  "project": "/T22_Codex/Codex_Lib/.peakview", 
   "recipe": "peakview_api_smoke_recipe", 
   "steps": [
     {
@@ -128,7 +128,7 @@
       "api": "Project.genSkillCode", 
       "label": "generate_skill", 
       "ok": true, 
-      "result": "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview/.peakdesign/pkc_Codex_API_Smoke_Recipe.il"
+      "result": "/T22_Codex/Codex_Lib/.peakview/.peakdesign/pkc_Codex_API_Smoke_Recipe.il"
     }, 
     {
       "api": "Project.save", 

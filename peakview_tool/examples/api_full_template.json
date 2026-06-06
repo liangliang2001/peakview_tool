@@ -1,0 +1,204 @@
+{
+  "name": "peakview_api_full_template",
+  "project": "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview",
+  "profile": "RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)",
+  "cleanup_on_success": false,
+  "steps": [
+    {
+      "api": "Project.setOptions",
+      "args": [
+        {
+          "start": "1.000e+09",
+          "stop": "1.000e+11",
+          "points": "300",
+          "rfic_option": "RFIC high",
+          "lin_log_choice": "lin"
+        }
+      ]
+    },
+    {
+      "api": "loadPcircuit",
+      "args": [
+        "/path/to/custom_pcircuit.py"
+      ],
+      "optional": true
+    },
+    {
+      "api": "Project.createCell",
+      "kwargs": {
+        "pcircuit": "AdvOctSymmetric",
+        "name": "Codex_Template_Inductor",
+        "itype": "PL",
+        "parameters": {}
+      },
+      "save_as": "cell"
+    },
+    {
+      "api": "Project.getCellByName",
+      "args": [
+        "Codex_Template_Inductor"
+      ],
+      "save_as": "cell_lookup"
+    },
+    {
+      "api": "Cell.getName",
+      "target": "$cell"
+    },
+    {
+      "api": "Cell.getType",
+      "target": "$cell"
+    },
+    {
+      "api": "Cell.getOptions",
+      "target": "$cell"
+    },
+    {
+      "api": "Cell.getParameters",
+      "target": "$cell"
+    },
+    {
+      "api": "Cell.getSweepParameters",
+      "target": "$cell"
+    },
+    {
+      "api": "Cell.getSimulationOptions",
+      "target": "$cell"
+    },
+    {
+      "api": "Cell.getPbmParameters",
+      "target": "$cell"
+    },
+    {
+      "api": "Project.setCellParameters",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor",
+        "parameters": {}
+      },
+      "optional": true
+    },
+    {
+      "api": "Project.setCellOptions",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor",
+        "options": {}
+      },
+      "optional": true
+    },
+    {
+      "api": "Project.setCellSimulationOptions",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor",
+        "options": {}
+      },
+      "optional": true
+    },
+    {
+      "api": "Project.setCellPbmParameters",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor",
+        "parameters": {}
+      },
+      "optional": true
+    },
+    {
+      "api": "Cell.addInstance",
+      "target": "$cell",
+      "kwargs": {
+        "pcircuit": "ground_shield",
+        "name": "shield1",
+        "parameters": {}
+      },
+      "save_as": "instance",
+      "optional": true
+    },
+    {
+      "api": "Cell.findInstanceByName",
+      "target": "$cell",
+      "args": [
+        "shield1"
+      ],
+      "save_as": "instance_lookup",
+      "optional": true
+    },
+    {
+      "api": "Instance.getName",
+      "target": "$instance",
+      "optional": true
+    },
+    {
+      "api": "Instance.getParameters",
+      "target": "$instance",
+      "optional": true
+    },
+    {
+      "api": "Instance.setParameters",
+      "target": "$instance",
+      "args": [
+        {}
+      ],
+      "optional": true
+    },
+    {
+      "api": "Cell.deleteInstance",
+      "target": "$cell",
+      "args": [
+        "$instance"
+      ],
+      "optional": true
+    },
+    {
+      "api": "Project.collectGeneratedCells",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor"
+      }
+    },
+    {
+      "api": "Project.copyCell",
+      "kwargs": {
+        "source": "Codex_Template_Inductor",
+        "destination": "Codex_Template_Inductor_Copy"
+      }
+    },
+    {
+      "api": "Project.renameCell",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor_Copy",
+        "newName": "Codex_Template_Inductor_Renamed"
+      }
+    },
+    {
+      "api": "simulate",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor"
+      },
+      "optional": true
+    },
+    {
+      "api": "waitForResult",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor",
+        "timeout": 1800
+      },
+      "optional": true
+    },
+    {
+      "api": "Project.genSkillCode",
+      "kwargs": {
+        "cell": "Codex_Template_Inductor",
+        "lib": "Codex_Lib"
+      }
+    },
+    {
+      "api": "saveProject"
+    },
+    {
+      "api": "Project.close"
+    },
+    {
+      "api": "exit",
+      "kwargs": {
+        "keepGUI": false
+      }
+    }
+  ]
+}

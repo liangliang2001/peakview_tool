@@ -1,0 +1,89 @@
+{
+  "name": "peakview_api_smoke_recipe",
+  "cleanup_on_success": true,
+  "steps": [
+    {
+      "label": "set_frequency_options",
+      "api": "Project.setOptions",
+      "args": [
+        {
+          "start": "1.000e+09",
+          "stop": "2.000e+09",
+          "points": "5",
+          "rfic_option": "RFIC high",
+          "lin_log_choice": "lin"
+        }
+      ]
+    },
+    {
+      "label": "create_line_cell",
+      "api": "Project.createCell",
+      "kwargs": {
+        "pcircuit": "Line",
+        "name": "Codex_API_Smoke_Recipe",
+        "itype": "PL"
+      },
+      "save_as": "cell"
+    },
+    {
+      "label": "cell_name",
+      "api": "Cell.getName",
+      "target": "$cell"
+    },
+    {
+      "label": "cell_type",
+      "api": "Cell.getType",
+      "target": "$cell"
+    },
+    {
+      "label": "cell_parameters",
+      "api": "Cell.getParameters",
+      "target": "$cell"
+    },
+    {
+      "label": "copy_cell",
+      "api": "Project.copyCell",
+      "kwargs": {
+        "source": "Codex_API_Smoke_Recipe",
+        "destination": "Codex_API_Smoke_Recipe_Copy"
+      }
+    },
+    {
+      "label": "rename_cell",
+      "api": "Project.renameCell",
+      "kwargs": {
+        "cell": "Codex_API_Smoke_Recipe_Copy",
+        "newName": "Codex_API_Smoke_Recipe_Renamed"
+      }
+    },
+    {
+      "label": "generate_skill",
+      "api": "Project.genSkillCode",
+      "kwargs": {
+        "cell": "Codex_API_Smoke_Recipe",
+        "lib": "Codex_Lib"
+      }
+    },
+    {
+      "label": "save_project",
+      "api": "Project.save"
+    }
+  ],
+  "cleanup": [
+    {
+      "api": "Project.deleteCell",
+      "args": [
+        "Codex_API_Smoke_Recipe"
+      ]
+    },
+    {
+      "api": "Project.deleteCell",
+      "args": [
+        "Codex_API_Smoke_Recipe_Renamed"
+      ]
+    },
+    {
+      "api": "Project.save"
+    }
+  ]
+}

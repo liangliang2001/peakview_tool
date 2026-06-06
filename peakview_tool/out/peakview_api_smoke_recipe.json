@@ -1,0 +1,140 @@
+{
+  "cleanup": [
+    {
+      "api": "Project.deleteCell", 
+      "label": null, 
+      "ok": true, 
+      "result": null
+    }, 
+    {
+      "api": "Project.deleteCell", 
+      "label": null, 
+      "ok": true, 
+      "result": null
+    }, 
+    {
+      "api": "Project.save", 
+      "label": null, 
+      "ok": true, 
+      "result": null
+    }
+  ], 
+  "documented_api_surface": [
+    "openProject", 
+    "project.createNewProject", 
+    "saveProject", 
+    "Project.save", 
+    "Project.close", 
+    "Project.createCellFromLayout", 
+    "Project.createCellFromGDS", 
+    "Project.createCell", 
+    "Project.getCellByName", 
+    "Cell.getName", 
+    "Cell.getType", 
+    "Cell.getOptions", 
+    "Cell.getParameters", 
+    "Cell.getSweepParameters", 
+    "Cell.getSimulationOptions", 
+    "Cell.getPbmParameters", 
+    "Project.setCellParameters", 
+    "Cell.setCellParameters", 
+    "Project.setCellOptions", 
+    "Project.setCellSimulationOptions", 
+    "Project.setCellPbmParameters", 
+    "Project.collectGeneratedCells", 
+    "Project.copyCell", 
+    "Project.renameCell", 
+    "Project.deleteCell", 
+    "Project.genSkillCode", 
+    "Cell.addInstance", 
+    "Instance.getName", 
+    "Instance.getParameters", 
+    "Cell.findInstanceByName", 
+    "Instance.findInstanceByName", 
+    "Instance.setParameters", 
+    "Cell.deleteInstance", 
+    "loadPcircuit", 
+    "simulate", 
+    "waitForResult", 
+    "exit"
+  ], 
+  "ok": true, 
+  "profile": "RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)", 
+  "project": "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview", 
+  "recipe": "peakview_api_smoke_recipe", 
+  "steps": [
+    {
+      "api": "Project.setOptions", 
+      "label": "set_frequency_options", 
+      "ok": true, 
+      "result": null
+    }, 
+    {
+      "api": "Project.createCell", 
+      "label": "create_line_cell", 
+      "ok": true, 
+      "result": {
+        "getName": "Codex_API_Smoke_Recipe", 
+        "getType": "P", 
+        "repr": "Codex_API_Smoke_Recipe", 
+        "type": "DItem"
+      }
+    }, 
+    {
+      "api": "Cell.getName", 
+      "label": "cell_name", 
+      "ok": true, 
+      "result": "Codex_API_Smoke_Recipe"
+    }, 
+    {
+      "api": "Cell.getType", 
+      "label": "cell_type", 
+      "ok": true, 
+      "result": "P"
+    }, 
+    {
+      "api": "Cell.getParameters", 
+      "label": "cell_parameters", 
+      "ok": true, 
+      "result": {
+        "Layer": "metal9", 
+        "Length": 0.0001, 
+        "Width": 5e-06
+      }
+    }, 
+    {
+      "api": "Project.copyCell", 
+      "label": "copy_cell", 
+      "ok": true, 
+      "result": {
+        "getName": "Codex_API_Smoke_Recipe_Copy", 
+        "getType": "P", 
+        "repr": "Codex_API_Smoke_Recipe_Copy", 
+        "type": "DItem"
+      }
+    }, 
+    {
+      "api": "Project.renameCell", 
+      "label": "rename_cell", 
+      "ok": true, 
+      "result": [
+        [
+          null, 
+          null
+        ]
+      ]
+    }, 
+    {
+      "api": "Project.genSkillCode", 
+      "label": "generate_skill", 
+      "ok": true, 
+      "result": "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview/.peakdesign/pkc_Codex_API_Smoke_Recipe.il"
+    }, 
+    {
+      "api": "Project.save", 
+      "label": "save_project", 
+      "ok": true, 
+      "result": null
+    }
+  ]
+}

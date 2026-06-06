@@ -1,0 +1,8 @@
+simulator lang=spectre
+
+global 0
+// Testbench for Cadence-synced PeakView nport view of Codex_Lib/IND_test_LDM
+N_DUT (p1 0 p2 0) nport file="/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/IND_test_LDM/nport/text.s2p" datafmt=touchstone
+P1 (p1 0) port r=50 num=1 type=sine
+P2 (p2 0) port r=50 num=2 type=sine
+sp1 sp start=1G stop=100G lin=300 ports=[P1 P2]

@@ -1,0 +1,6195 @@
+{
+  "counts": {
+    "display_models": 73,
+    "dynamic_models": 15,
+    "registered_models": 122,
+    "registered_with_plem": 244
+  },
+  "display_models": [
+    {
+      "display_name": "AdvBalun",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_64.png",
+      "internal_name": "AdvBalun_v3",
+      "is_dynamic": false,
+      "parameter_count": 27,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Underpath Layers",
+        "Shape",
+        "Stacked Option",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension Ratio",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        8,
+        9,
+        11,
+        13
+      ]
+    },
+    {
+      "display_name": "AdvBalunArmsSameSide",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalunArmsSameSide1.png",
+      "internal_name": "AdvBalunArmsSameSide_v2",
+      "is_dynamic": false,
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        5,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "display_name": "AdvBalun_Flex_CrossLayer",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_Flex_CrossLayer_64.png",
+      "internal_name": "AdvBalun_Flex_CrossLayer_v3",
+      "is_dynamic": false,
+      "parameter_count": 23,
+      "parameters": [
+        "Inductor Layer",
+        "Cross Layers",
+        "Underpath Layers",
+        "Shape",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension Ratio",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        4,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "display_name": "AdvBalun_HighQ",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_HighQ_64.png",
+      "internal_name": "AdvBalun_HighQ_v2",
+      "is_dynamic": false,
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        5,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "display_name": "AdvOctSymmetric",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvOctSymmetric_64.png",
+      "internal_name": "AdvOctSymmetric_v4",
+      "is_dynamic": false,
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Center Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "AdvOctSymmetric_v2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "AdvOctSymmetric_v2",
+      "is_dynamic": false,
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Center Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "AdvOctagon_MLS",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "AdvOctagon_MLS",
+      "is_dynamic": false,
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Nturn",
+        "Opening",
+        "Top Layer",
+        "Top Layer Width",
+        "Top Layer Spacing",
+        "Layer Options",
+        "Layer Options Width1",
+        "Layer Options Spacing1",
+        "Layer Options Width2",
+        "Layer Options Spacing2",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Side Extension Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        1
+      ]
+    },
+    {
+      "display_name": "AdvSymmetric",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvSymmetric_64.png",
+      "internal_name": "AdvSymmetric_v3",
+      "is_dynamic": false,
+      "parameter_count": 23,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Shape",
+        "Stacked Option",
+        "Layout Rotation",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "Turns",
+        "Cross Layer Opening",
+        "Arm Length",
+        "Arm Opening",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Width Step",
+        "Top Ctap Layers",
+        "Ctap Layers",
+        "Ctap Flip",
+        "Ctap Length",
+        "Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        8,
+        11
+      ]
+    },
+    {
+      "display_name": "Adv_Octagon_MLS",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Adv_Octagon_MLS",
+      "is_dynamic": false,
+      "parameter_count": 14,
+      "parameters": [
+        "Inlen",
+        "Nturn",
+        "Opening",
+        "Top Layer",
+        "Top Layer Width",
+        "Top Layer Spacing",
+        "Layer Options",
+        "Layer Options Width1",
+        "Layer Options Spacing1",
+        "Layer Options Width2",
+        "Layer Options Spacing2",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        1
+      ]
+    },
+    {
+      "display_name": "AdvancedDifferentialCPW",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvancedDifferentialCPW_64.png",
+      "internal_name": "AdvancedDifferentialCPW",
+      "is_dynamic": false,
+      "parameter_count": 17,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing at center",
+        "Spacing at side",
+        "CP Ground Start",
+        "CP Ground End",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "display_name": "Balun",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Balun_64.png",
+      "internal_name": "Balun_v2",
+      "is_dynamic": false,
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "display_name": "CPW",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "CPW",
+      "is_dynamic": false,
+      "parameter_count": 14,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3
+      ]
+    },
+    {
+      "display_name": "Circular",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Circular_64.png",
+      "internal_name": "Circular",
+      "is_dynamic": false,
+      "parameter_count": 7,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "No. of Sides",
+        "Arm Length",
+        "Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "Circular_MLS",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Circular_MLS_64.png",
+      "internal_name": "Circular_MLS",
+      "is_dynamic": false,
+      "parameter_count": 10,
+      "parameters": [
+        "Outlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Nside",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "ConnectedSlot",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "ConnectedSlot",
+      "is_dynamic": true,
+      "parameter_count": 7,
+      "parameters": [
+        "Width",
+        "Spacing",
+        "Height",
+        "Amount",
+        "Layer",
+        "Connection_Width",
+        "Distance"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "DifferentialCPW",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "DifferentialCPW",
+      "is_dynamic": false,
+      "parameter_count": 14,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3
+      ]
+    },
+    {
+      "display_name": "DifferentialLine",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/DifferentialLine_64.png",
+      "internal_name": "DifferentialLine",
+      "is_dynamic": false,
+      "parameter_count": 13,
+      "parameters": [
+        "Length",
+        "Width",
+        "Spacing",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        1,
+        2
+      ]
+    },
+    {
+      "display_name": "FloatingSlot",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "FloatingSlot",
+      "is_dynamic": true,
+      "parameter_count": 5,
+      "parameters": [
+        "Width",
+        "Spacing",
+        "Height",
+        "Amount",
+        "Layer"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "GCPW",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "GCPW",
+      "is_dynamic": false,
+      "parameter_count": 12,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing between G and S",
+        "Spacing between S and S",
+        "Top  Layer",
+        "Number of Ground Layers",
+        "Number of Signal Layers",
+        "Number of Signal Lines",
+        "Extra Ground at center",
+        "Shared Ground Terminals",
+        "Ground Terminal Locations"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "display_name": "GuardRing",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "GuardRing",
+      "is_dynamic": true,
+      "parameter_count": 4,
+      "parameters": [
+        "size",
+        "width",
+        "layer",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "GuardRingWGnd",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "GuardRingWGnd",
+      "is_dynamic": true,
+      "parameter_count": 4,
+      "parameters": [
+        "size",
+        "width",
+        "layer",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "GuardRingWGnd_v2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "GuardRingWGnd_v2",
+      "is_dynamic": false,
+      "parameter_count": 5,
+      "parameters": [
+        "size",
+        "width",
+        "top_layer",
+        "number_of_layers",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "GuardRing_v2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "GuardRing_v2",
+      "is_dynamic": false,
+      "parameter_count": 5,
+      "parameters": [
+        "size",
+        "width",
+        "top_layer",
+        "number_of_layers",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "Line",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Line_64.png",
+      "internal_name": "Line",
+      "is_dynamic": false,
+      "parameter_count": 3,
+      "parameters": [
+        "Length",
+        "Width",
+        "Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        1
+      ]
+    },
+    {
+      "display_name": "LinePairs",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/LinePairs_64.png",
+      "internal_name": "LinePairs",
+      "is_dynamic": false,
+      "parameter_count": 18,
+      "parameters": [
+        "Stacked Option",
+        "Top Layer",
+        "No. of Layers",
+        "No. of Cross Over Layers",
+        "No. of Cross Under Layers",
+        "Cross Layer Flip",
+        "Twisted Sections",
+        "No. of Pairs",
+        "Total Length",
+        "Equal Section",
+        "Section Length",
+        "Width",
+        "Spacing",
+        "Separation",
+        "No. of Shieldline Layers",
+        "Top Shieldline Layer",
+        "Shieldline Width",
+        "Shieldline Spacing"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "display_name": "MF_RectCross",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "MF_RectCross",
+      "is_dynamic": true,
+      "parameter_count": 14,
+      "parameters": [
+        "Top layer",
+        "Rectangle fill No. of layers",
+        "Cross fill No. of layers",
+        "Rectangle fill width",
+        "Cross fill width",
+        "Fill area height",
+        "Center to left edge of fill area",
+        "Center to right edge of fill area",
+        "Fill area left corner angle",
+        "Fill area right corner angle",
+        "Fill area left edge height",
+        "Fill area right edge height",
+        "Shift fill area up/down",
+        "Shift fill area left/right"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "MF_Square",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "MF_Square",
+      "is_dynamic": false,
+      "parameter_count": 12,
+      "parameters": [
+        "Top layer",
+        "End layer",
+        "Square fill width",
+        "Fill area height",
+        "Center to left edge of fill area",
+        "Center to right edge of fill area",
+        "Fill area left corner angle",
+        "Fill area right corner angle",
+        "Fill area left edge height",
+        "Fill area right edge height",
+        "Shift fill area up/down",
+        "Shift fill area left/right"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "MicrostripLine",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/MicrostripLine_64.png",
+      "internal_name": "MicrostripLine",
+      "is_dynamic": false,
+      "parameter_count": 12,
+      "parameters": [
+        "Length",
+        "Width",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        1
+      ]
+    },
+    {
+      "display_name": "OctBalun",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/OctBalun_64.png",
+      "internal_name": "OctBalun_v3",
+      "is_dynamic": false,
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "display_name": "OctBalun_HighQ_FlexOpen",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_HighQ_64.png",
+      "internal_name": "OctBalun_HighQ_FlexOpen",
+      "is_dynamic": false,
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Secondary End Opening Direction",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        4,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "display_name": "OctSymmetric",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "OctSymmetric",
+      "is_dynamic": false,
+      "parameter_count": 12,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "OctSymmetric3",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "OctSymmetric3",
+      "is_dynamic": false,
+      "parameter_count": 13,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Width Step",
+        "Tap Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "OctTransformer_p2s1",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/OctTransformer_p2s1_64.png",
+      "internal_name": "OctTransformer_p2s1_v3",
+      "is_dynamic": false,
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Width Second",
+        "Side Extension Ratio",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "display_name": "Octagon",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Octagon_64.png",
+      "internal_name": "Octagon_v5",
+      "is_dynamic": false,
+      "parameter_count": 9,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Side Extension Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "OctagonSymmetric",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/OctagonSymmetric_64.png",
+      "internal_name": "OctagonSymmetric_v4",
+      "is_dynamic": false,
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "OctagonSymmetric_v2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "OctagonSymmetric_v2",
+      "is_dynamic": false,
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "Octagon_MLS",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Octagon_MLS_64.png",
+      "internal_name": "Octagon_MLS_v5",
+      "is_dynamic": false,
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension Ratio",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Tapped",
+        "CTap Layer",
+        "CTap Length",
+        "CTap Width"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "Octagon_MLS_v2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Octagon_MLS_v2",
+      "is_dynamic": false,
+      "parameter_count": 11,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "Octagon_MLS_v3",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Octagon_MLS_v3",
+      "is_dynamic": false,
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Tapped",
+        "CTap Layer",
+        "CTap Length",
+        "CTap Width"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "Octagon_MLS_v4",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Octagon_MLS_v4",
+      "is_dynamic": false,
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension Ratio",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Tapped",
+        "CTap Layer",
+        "CTap Length",
+        "CTap Width"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "Octagon_v2",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/octagon22x22.png",
+      "internal_name": "Octagon_v2",
+      "is_dynamic": false,
+      "parameter_count": 8,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "Octagon_v4",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/octagon22x22.png",
+      "internal_name": "Octagon_v4",
+      "is_dynamic": false,
+      "parameter_count": 9,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Side Extension Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "OffsetSlot",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "OffsetSlot",
+      "is_dynamic": true,
+      "parameter_count": 8,
+      "parameters": [
+        "Width",
+        "Spacing",
+        "Height",
+        "Amount",
+        "Offset1",
+        "Layer1",
+        "Offset2",
+        "Layer2"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "PGS_1",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "PGS_1",
+      "is_dynamic": false,
+      "parameter_count": 7,
+      "parameters": [
+        "size",
+        "spacing",
+        "width",
+        "layer",
+        "pin_width",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "PGS_AdvNode",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "PGS_AdvNode",
+      "is_dynamic": false,
+      "parameter_count": 7,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "shape",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "PGS_AdvNode_VarLayer",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "PGS_AdvNode_VarLayer",
+      "is_dynamic": false,
+      "parameter_count": 8,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "top layer",
+        "shape",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "PGS_AspectRatio",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "PGS_AspectRatio",
+      "is_dynamic": false,
+      "parameter_count": 8,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "layer",
+        "pin_width",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "PGS_and_GR",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "PGS_and_GR",
+      "is_dynamic": true,
+      "parameter_count": 11,
+      "parameters": [
+        "pgs_size",
+        "pgs_spacing",
+        "pgs_width",
+        "pgs_layer",
+        "pgs_pin_width",
+        "pgs_pin_extension",
+        "pgs_pin_direction",
+        "gr_size",
+        "gr_width",
+        "gr_layer",
+        "gr_shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "Rectangular",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Rectangular_64.png",
+      "internal_name": "Rectangular",
+      "is_dynamic": false,
+      "parameter_count": 7,
+      "parameters": [
+        "Outer Length",
+        "Outer Height",
+        "Width",
+        "Spacing",
+        "No. of Segments",
+        "Layer",
+        "Cross Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "display_name": "SolidGround",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "SolidGround",
+      "is_dynamic": true,
+      "parameter_count": 3,
+      "parameters": [
+        "Length",
+        "Height",
+        "Layer"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "SolidGroundWPin",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "SolidGroundWPin",
+      "is_dynamic": true,
+      "parameter_count": 3,
+      "parameters": [
+        "Length",
+        "Height",
+        "Layer"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "Square",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Square_64.png",
+      "internal_name": "Square",
+      "is_dynamic": false,
+      "parameter_count": 6,
+      "parameters": [
+        "Outer length",
+        "Width",
+        "Spacing",
+        "No. of Segments",
+        "Layer",
+        "Cross Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "display_name": "SquareBalun",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "SquareBalun_v2",
+      "is_dynamic": false,
+      "parameter_count": 10,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "display_name": "Square_MLS",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Square_MLS_64.png",
+      "internal_name": "Square_MLS",
+      "is_dynamic": false,
+      "parameter_count": 8,
+      "parameters": [
+        "Nseg",
+        "Outlen",
+        "Width",
+        "Spacing",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        1
+      ]
+    },
+    {
+      "display_name": "StackedBalun_wCNT",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/StackedBalun_wCNT_64.png",
+      "internal_name": "StackedBalun_wCNT_v5",
+      "is_dynamic": false,
+      "parameter_count": 27,
+      "parameters": [
+        "Top Coil Outer Length",
+        "Origin x cordinate",
+        "Origin y cordinate",
+        "Bottom Coil Outer Length",
+        "Width",
+        "Spacing",
+        "Number of Sides",
+        "Number of Turns",
+        "Bottom Coil Orientation",
+        "Vertical Opening",
+        "End Opening",
+        "Arm length",
+        "Top Coil Layer",
+        "Top Coil Cross layer",
+        "Bottom Coil Layer",
+        "Bottom Coil Cross layer",
+        "Aspect Ratio",
+        "Top Coil Side Extension Ratio",
+        "Bottom Coil Side Extension Ratio",
+        "Top Coil Ctap Layer",
+        "Top Coil Ctap Flip",
+        "Top Coil Ctap Length",
+        "Top Coil Ctap Width",
+        "Bottom Coil Ctap Layer",
+        "Bottom Coil Ctap Flip",
+        "Bottom Coil Ctap Length",
+        "Bottom Coil Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        17,
+        18
+      ]
+    },
+    {
+      "display_name": "StackedBalun_wCNT_v2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "StackedBalun_wCNT_v2",
+      "is_dynamic": false,
+      "parameter_count": 26,
+      "parameters": [
+        "Left Outer radius",
+        "Left Origin x cordinate",
+        "Left Origin y cordinate",
+        "Right Outer radius",
+        "Width",
+        "Spacing",
+        "Number of Sides",
+        "Number of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm length",
+        "Layer_top",
+        "Cross layer_top",
+        "Layer_bottom",
+        "Cross_layer_bottom",
+        "Aspect Ratio",
+        "Left Side Extension",
+        "Right Side Extension",
+        "Top Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        16,
+        17
+      ]
+    },
+    {
+      "display_name": "Sym_Overlay_Transformer",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Sym_Overlay_Transformer_64.png",
+      "internal_name": "Sym_Overlay_Transformer_v4",
+      "is_dynamic": false,
+      "parameter_count": 14,
+      "parameters": [
+        "Inductor1 Top Layer",
+        "Inductor1 # of Layers",
+        "Inductor2 Top Layer",
+        "Inductor2 # of Layers",
+        "Shape",
+        "Inductor1 Width",
+        "Inductor2 Width",
+        "Outer Length",
+        "Aspect Ratio",
+        "Side Extension Ratio",
+        "No. of Turns",
+        "Spacing",
+        "Arm Opening",
+        "Arm Length"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        5,
+        6,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "display_name": "Symmetric",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Symmetric_64.png",
+      "internal_name": "Symmetric_v2",
+      "is_dynamic": false,
+      "parameter_count": 12,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross layer",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        4
+      ]
+    },
+    {
+      "display_name": "TCoil_FlatWiring",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/TCoil_FlatWiring_64.png",
+      "internal_name": "TCoil_FlatWiring",
+      "is_dynamic": false,
+      "parameter_count": 18,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing of Top Winding",
+        "Spacing of Bottom Winding",
+        "Number of Turns, Top Winding",
+        "Number of Turns, Bottom Winding",
+        "Top Winding Layer",
+        "Bottom Winding Layer",
+        "Center-tap Direction",
+        "Center-tap Layer",
+        "Center-tap Length",
+        "Center-tap Width",
+        "Arm Length",
+        "Left Arm Direction",
+        "Right Arm Direction",
+        "Horizontal Offset",
+        "Vertical Offset",
+        "Shrink Factor of Bottom Winding"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(zd12)",
+          "Total Inductance"
+        ],
+        0
+      ]
+    },
+    {
+      "display_name": "TCoil_OctFlatWiring",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "TCoil_OctFlatWiring_v2",
+      "is_dynamic": false,
+      "parameter_count": 19,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing of Top Winding",
+        "Spacing of Bottom Winding",
+        "Number of Turns, Top Winding",
+        "Number of Turns, Bottom Winding",
+        "Side Extension Ratio",
+        "Top Winding Layer",
+        "Bottom Winding Layer",
+        "Center-tap Direction",
+        "Center-tap Layer",
+        "Center-tap Length",
+        "Center-tap Width",
+        "Arm Length",
+        "Left Arm Direction",
+        "Right Arm Direction",
+        "Horizontal Offset",
+        "Vertical Offset",
+        "Shrink Factor of Bottom Winding"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(zd12)",
+          "Total Inductance"
+        ],
+        0,
+        6
+      ]
+    },
+    {
+      "display_name": "TCoil_StackWiring",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/TCoil_StackWiring_64.png",
+      "internal_name": "TCoil_StackWiring",
+      "is_dynamic": false,
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Width",
+        "Outer Height",
+        "Width",
+        "Spacing",
+        "Top Winding Layer",
+        "Bottom Winding Layer",
+        "Center-tap Layer",
+        "Center-tap Length",
+        "Center-tap Width",
+        "Center-tap Height",
+        "Arm Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(zd12)",
+          "Total Inductance"
+        ],
+        0
+      ]
+    },
+    {
+      "display_name": "TCoil_Symmetric_AlterW",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "TCoil_Symmetric_AlterW_v2",
+      "is_dynamic": false,
+      "parameter_count": 14,
+      "parameters": [
+        "Inner Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Opening",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension Ratio",
+        "Shape",
+        "Layer",
+        "Alter Layer",
+        "Center Tap Width",
+        "Center Tap Layer",
+        "Opposite Arms "
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(yd(1,2))",
+          "Differential inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "display_name": "TCoil_Symmetric_FlexCross_OppoArm",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/TCoil_SymFlexCrossOppoArm_64.png",
+      "internal_name": "TCoil_Symmetric_FlexCross_OppoArm_v2",
+      "is_dynamic": false,
+      "parameter_count": 15,
+      "parameters": [
+        "Inner Length",
+        "Width",
+        "Cross Width",
+        "Spacing",
+        "Cross Spacing",
+        "No. of Turns",
+        "Arm Opening",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension Ratio",
+        "Shape",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Width",
+        "Center Tap Layer"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/yd(1,2))",
+          "Ld"
+        ],
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "display_name": "Transformer_Balun_FlexRatio_HQ",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Transformer_Balun_FlexRatio_HQ_v5",
+      "is_dynamic": false,
+      "parameter_count": 29,
+      "parameters": [
+        "No. of Primary Coil turns",
+        "No. of Secondary Coil turns",
+        "Primary Coil Arm Side",
+        "Primary Coil Arm Turn",
+        "Secondary Coil Arm Side",
+        "Secondary Coil Arm Turn",
+        "Pattern ID",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Shape",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary Coil Arm Length",
+        "Primary Coil Opening",
+        "Primary Coil Ctap Layer",
+        "Primary Coil Ctap Length",
+        "Primary Coil Ctap Width",
+        "Primary Coil Ctap Direction",
+        "Secondary Coil Arm Length",
+        "Secondary Coil Opening",
+        "Secondary Coil Ctap Layer",
+        "Secondary Coil Ctap Length",
+        "Secondary Coil Ctap Width",
+        "Secondary Coil Ctap Direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "Transformer_Balun_FlexRatio_HQ_v2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Transformer_Balun_FlexRatio_HQ_v2",
+      "is_dynamic": false,
+      "parameter_count": 27,
+      "parameters": [
+        "No. of Primary Coil turns",
+        "No. of Secondary Coil turns",
+        "Primary Coil Arm Side",
+        "Primary Coil Arm Turn",
+        "Secondary Coil Arm Side",
+        "Secondary Coil Arm Turn",
+        "Pattern ID",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Shape",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "Side Extension",
+        "Aspect Ratio",
+        "Primary Coil Arm Length",
+        "Primary Coil Opening",
+        "Primary Coil Ctap Layer",
+        "Primary Coil Ctap Length",
+        "Primary Coil Ctap Width",
+        "Secondary Coil Arm Length",
+        "Secondary Coil Opening",
+        "Secondary Coil Ctap Layer",
+        "Secondary Coil Ctap Length",
+        "Secondary Coil Ctap Width"
+      ],
+      "synthesis": []
+    },
+    {
+      "display_name": "Transformer_FlexRatio",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Transformer_FlexRatio_64.png",
+      "internal_name": "Transformer_FlexRatio_v4",
+      "is_dynamic": false,
+      "parameter_count": 17,
+      "parameters": [
+        "Turn Pattern",
+        "Outer Length",
+        "Primary Trace Width",
+        "Secondary Trace Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension Ratio",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Arm Length",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Primary Width Step",
+        "Secondary Width Step",
+        "Inner Spiral Radius"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "display_name": "Transformer_Symmetric_Concentrix",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Transformer_Symmtric_Concentrix_64.png",
+      "internal_name": "Transformer_Symmtric_Concentrix_v2",
+      "is_dynamic": false,
+      "parameter_count": 20,
+      "parameters": [
+        "Inner Length of Outer Coil",
+        "Gap",
+        "Width Outer",
+        "Width Inner",
+        "Spacing Outer",
+        "Spacing Inner",
+        "No. of Turns Outer",
+        "No. of Turns Inner",
+        "Width Step Inner",
+        "Arm Opening Outer",
+        "Arm Opening Inner",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension Ratio",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Outer ON",
+        "Center Tap Outer Layer",
+        "Center Tap Inner ON",
+        "Center Tap Inner Layer"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Differential inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "display_name": "Transformer_Symmtric_Concentrix",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Transformer_Symmtric_Concentrix",
+      "is_dynamic": false,
+      "parameter_count": 20,
+      "parameters": [
+        "Inner Length of Outer Coil",
+        "Gap",
+        "Width Outer",
+        "Width Inner",
+        "Spacing Outer",
+        "Spacing Inner",
+        "No. of Turns Outer",
+        "No. of Turns Inner",
+        "Width Step Inner",
+        "Arm Opening Outer",
+        "Arm Opening Inner",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Outer ON",
+        "Center Tap Outer Layer",
+        "Center Tap Inner ON",
+        "Center Tap Inner Layer"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Differential inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "display_name": "Transformer_p2s1",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "Transformer_p2s1_v2",
+      "is_dynamic": false,
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "No. of Sides",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "display_name": "Transformer_p3s1",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Transformer_p3s1_64.png",
+      "internal_name": "Transformer_p3s1_v4",
+      "is_dynamic": false,
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension Ratio",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "display_name": "XLines",
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/XLines_64.png",
+      "internal_name": "XLines",
+      "is_dynamic": false,
+      "parameter_count": 16,
+      "parameters": [
+        "Stacked Option",
+        "Top Layer",
+        "No. of Layers",
+        "No. of Lines",
+        "Length",
+        "Width",
+        "Spacing",
+        "Offset Y",
+        "Top Layer 2",
+        "No. of Layers 2",
+        "No. of Underpath Layers 2",
+        "No. of Lines 2",
+        "Length 2",
+        "Width 2",
+        "Spacing 2",
+        "Offset X"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        4,
+        5,
+        12,
+        13
+      ]
+    },
+    {
+      "display_name": "advOctSymmetric",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "advOctSymmetric",
+      "is_dynamic": false,
+      "parameter_count": 14,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Layer",
+        "Aspect Ratio",
+        "Width Step",
+        "Tap Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "display_name": "advOctSymmetric2",
+      "em_simulation_type": "",
+      "icon_path": null,
+      "internal_name": "advOctSymmetric2",
+      "is_dynamic": false,
+      "parameter_count": 13,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Width Step",
+        "Tap Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    }
+  ],
+  "dynamic_models": [
+    "ConnectedSlot",
+    "FloatingSlot",
+    "GuardRing",
+    "GuardRingWGnd",
+    "GuardRingWGnd_v3",
+    "GuardRing_v3",
+    "MF_RectCross",
+    "MF_Square_v2",
+    "OffsetSlot",
+    "PGS_AdvNode_VarLayer_v2",
+    "PGS_AspectRatio_VarShape",
+    "PGS_and_GR",
+    "PGS_and_GR_VarShape",
+    "SolidGround",
+    "SolidGroundWPin"
+  ],
+  "ok": true,
+  "profile": "RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)",
+  "project": "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview",
+  "registered_models": [
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun",
+      "parameter_count": 27,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Underpath Layers",
+        "Shape",
+        "Stacked Option",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        8,
+        9,
+        11,
+        13
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/balun22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalunArmsSameSide",
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        5,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalunArmsSameSide1.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalunArmsSameSide_v2",
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        5,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_Flex_CrossLayer_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun_Flex_CrossLayer",
+      "parameter_count": 23,
+      "parameters": [
+        "Inductor Layer",
+        "Cross Layers",
+        "Underpath Layers",
+        "Shape",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        4,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_Flex_CrossLayer_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun_Flex_CrossLayer_v2",
+      "parameter_count": 23,
+      "parameters": [
+        "Inductor Layer",
+        "Cross Layers",
+        "Underpath Layers",
+        "Shape",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension Ratio",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        4,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_Flex_CrossLayer_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun_Flex_CrossLayer_v3",
+      "parameter_count": 23,
+      "parameters": [
+        "Inductor Layer",
+        "Cross Layers",
+        "Underpath Layers",
+        "Shape",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension Ratio",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        4,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/balun22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun_HighQ",
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        5,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_HighQ_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun_HighQ_v2",
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        5,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun_v2",
+      "parameter_count": 27,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Underpath Layers",
+        "Shape",
+        "Stacked Option",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension Ratio",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        8,
+        9,
+        11,
+        13
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvBalun_v3",
+      "parameter_count": 27,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Underpath Layers",
+        "Shape",
+        "Stacked Option",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Cross Layer Opening",
+        "Side Extension Ratio",
+        "Arm Opening",
+        "Arm Length",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(z11-z12-z21+z22)",
+          "self inductance"
+        ],
+        8,
+        9,
+        11,
+        13
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvOctSymmetric",
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Center Tap Layer",
+        "Tap Length",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvOctSymmetric_v2",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Center Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvOctSymmetric_v3",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Center Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvOctSymmetric_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvOctSymmetric_v4",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Center Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvOctagon_MLS",
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Nturn",
+        "Opening",
+        "Top Layer",
+        "Top Layer Width",
+        "Top Layer Spacing",
+        "Layer Options",
+        "Layer Options Width1",
+        "Layer Options Spacing1",
+        "Layer Options Width2",
+        "Layer Options Spacing2",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Side Extension Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        1
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/symmetric22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvSymmetric",
+      "parameter_count": 23,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Shape",
+        "Stacked Option",
+        "Layout Rotation",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "Turns",
+        "Cross Layer Opening",
+        "Arm Length",
+        "Arm Opening",
+        "Side Extension",
+        "Aspect Ratio",
+        "Width Step",
+        "Top Ctap Layers",
+        "Ctap Layers",
+        "Ctap Flip",
+        "Ctap Length",
+        "Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        8,
+        11
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/symmetric22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvSymmetric_v2",
+      "parameter_count": 23,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Shape",
+        "Stacked Option",
+        "Layout Rotation",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "Turns",
+        "Cross Layer Opening",
+        "Arm Length",
+        "Arm Opening",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Width Step",
+        "Top Ctap Layers",
+        "Ctap Layers",
+        "Ctap Flip",
+        "Ctap Length",
+        "Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        8,
+        11
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvSymmetric_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvSymmetric_v3",
+      "parameter_count": 23,
+      "parameters": [
+        "Top Inductor Layer",
+        "Inductor Layers",
+        "Cross Over Layers",
+        "Cross Under Layers",
+        "Cross Layer Flip",
+        "Shape",
+        "Stacked Option",
+        "Layout Rotation",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "Turns",
+        "Cross Layer Opening",
+        "Arm Length",
+        "Arm Opening",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Width Step",
+        "Top Ctap Layers",
+        "Ctap Layers",
+        "Ctap Flip",
+        "Ctap Length",
+        "Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        8,
+        11
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Adv_Octagon_MLS",
+      "parameter_count": 14,
+      "parameters": [
+        "Inlen",
+        "Nturn",
+        "Opening",
+        "Top Layer",
+        "Top Layer Width",
+        "Top Layer Spacing",
+        "Layer Options",
+        "Layer Options Width1",
+        "Layer Options Spacing1",
+        "Layer Options Width2",
+        "Layer Options Spacing2",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        1
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvancedDifferentialCPW_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "AdvancedDifferentialCPW",
+      "parameter_count": 17,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing at center",
+        "Spacing at side",
+        "CP Ground Start",
+        "CP Ground End",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/balun22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Balun",
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Balun_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Balun_v2",
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "CPW",
+      "parameter_count": 14,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Circular_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Circular",
+      "parameter_count": 7,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "No. of Sides",
+        "Arm Length",
+        "Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Circular_MLS_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Circular_MLS",
+      "parameter_count": 10,
+      "parameters": [
+        "Outlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Nside",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "ConnectedSlot",
+      "parameter_count": 7,
+      "parameters": [
+        "Width",
+        "Spacing",
+        "Height",
+        "Amount",
+        "Layer",
+        "Connection_Width",
+        "Distance"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "DifferentialCPW",
+      "parameter_count": 14,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/DifferentialLine_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "DifferentialLine",
+      "parameter_count": 13,
+      "parameters": [
+        "Length",
+        "Width",
+        "Spacing",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        1,
+        2
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "EmptyPcircuit",
+      "parameter_count": 0,
+      "parameters": [],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "FloatingSlot",
+      "parameter_count": 5,
+      "parameters": [
+        "Width",
+        "Spacing",
+        "Height",
+        "Amount",
+        "Layer"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "GCPW",
+      "parameter_count": 12,
+      "parameters": [
+        "Length",
+        "Ground Width",
+        "Signal Width",
+        "Spacing between G and S",
+        "Spacing between S and S",
+        "Top  Layer",
+        "Number of Ground Layers",
+        "Number of Signal Layers",
+        "Number of Signal Lines",
+        "Extra Ground at center",
+        "Shared Ground Terminals",
+        "Ground Terminal Locations"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "GuardRing",
+      "parameter_count": 4,
+      "parameters": [
+        "size",
+        "width",
+        "layer",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "GuardRingWGnd",
+      "parameter_count": 4,
+      "parameters": [
+        "size",
+        "width",
+        "layer",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "GuardRingWGnd_v2",
+      "parameter_count": 5,
+      "parameters": [
+        "size",
+        "width",
+        "top_layer",
+        "number_of_layers",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "GuardRingWGnd_v3",
+      "parameter_count": 7,
+      "parameters": [
+        "size",
+        "width",
+        "ring opening",
+        "top_layer",
+        "number_of_layers",
+        "shape",
+        "aspect ratio"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "GuardRing_v2",
+      "parameter_count": 5,
+      "parameters": [
+        "size",
+        "width",
+        "top_layer",
+        "number_of_layers",
+        "shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "GuardRing_v3",
+      "parameter_count": 7,
+      "parameters": [
+        "size",
+        "width",
+        "ring opening",
+        "top_layer",
+        "number_of_layers",
+        "shape",
+        "aspect ratio"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Line_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Line",
+      "parameter_count": 3,
+      "parameters": [
+        "Length",
+        "Width",
+        "Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        1
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/LinePairs_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "LinePairs",
+      "parameter_count": 18,
+      "parameters": [
+        "Stacked Option",
+        "Top Layer",
+        "No. of Layers",
+        "No. of Cross Over Layers",
+        "No. of Cross Under Layers",
+        "Cross Layer Flip",
+        "Twisted Sections",
+        "No. of Pairs",
+        "Total Length",
+        "Equal Section",
+        "Section Length",
+        "Width",
+        "Spacing",
+        "Separation",
+        "No. of Shieldline Layers",
+        "Top Shieldline Layer",
+        "Shieldline Width",
+        "Shieldline Spacing"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "MF_RectCross",
+      "parameter_count": 14,
+      "parameters": [
+        "Top layer",
+        "Rectangle fill No. of layers",
+        "Cross fill No. of layers",
+        "Rectangle fill width",
+        "Cross fill width",
+        "Fill area height",
+        "Center to left edge of fill area",
+        "Center to right edge of fill area",
+        "Fill area left corner angle",
+        "Fill area right corner angle",
+        "Fill area left edge height",
+        "Fill area right edge height",
+        "Shift fill area up/down",
+        "Shift fill area left/right"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "MF_Square",
+      "parameter_count": 12,
+      "parameters": [
+        "Top layer",
+        "End layer",
+        "Square fill width",
+        "Fill area height",
+        "Center to left edge of fill area",
+        "Center to right edge of fill area",
+        "Fill area left corner angle",
+        "Fill area right corner angle",
+        "Fill area left edge height",
+        "Fill area right edge height",
+        "Shift fill area up/down",
+        "Shift fill area left/right"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "MF_Square_v2",
+      "parameter_count": 12,
+      "parameters": [
+        "Top layer",
+        "Number of layers",
+        "Square fill width",
+        "Fill area height",
+        "Center to left edge of fill area",
+        "Center to right edge of fill area",
+        "Fill area left corner angle",
+        "Fill area right corner angle",
+        "Fill area left edge height",
+        "Fill area right edge height",
+        "Shift fill area up/down",
+        "Shift fill area left/right"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/MicrostripLine_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "MicrostripLine",
+      "parameter_count": 12,
+      "parameters": [
+        "Length",
+        "Width",
+        "metal9",
+        "metal8",
+        "metal7",
+        "metal6",
+        "metal5",
+        "metal4",
+        "metal3",
+        "metal2",
+        "metal1",
+        "fpoly"
+      ],
+      "synthesis": [
+        [
+          "(mag(50*sqrt(((1+s11)**2-s21**2)/((1-s11)**2-s21**2))))",
+          "Characteristic Impedance"
+        ],
+        1
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctBalun",
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/AdvBalun_HighQ_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctBalun_HighQ_FlexOpen",
+      "parameter_count": 27,
+      "parameters": [
+        "Outer Length",
+        "Primary Width",
+        "Secondary Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Secondary End Opening Direction",
+        "Primary Arm Length",
+        "Secondary Arm Length",
+        "Secondary Arm Layer",
+        "Secondary Arm Cross Layer",
+        "Layer",
+        "Cross Layer",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary CTap",
+        "Primary CTap Flip",
+        "Primary CTap Layer",
+        "Primary CTap Width",
+        "Primary CTap Length",
+        "Secondary CTap",
+        "Secondary CTap Flip",
+        "Secondary CTap Layer",
+        "Secondary CTap Width",
+        "Secondary CTap Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        4,
+        11,
+        12,
+        15,
+        20,
+        25
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctBalun_v2",
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/OctBalun_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctBalun_v3",
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctSymmetric",
+      "parameter_count": 12,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctSymmetric3",
+      "parameter_count": 13,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Width Step",
+        "Tap Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctTransformer_p2s1",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Width Second",
+        "Side Extension",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctTransformer_p2s1_v2",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Width Second",
+        "Side Extension Ratio",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/OctTransformer_p2s1_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctTransformer_p2s1_v3",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Width Second",
+        "Side Extension Ratio",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/octagon22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon",
+      "parameter_count": 8,
+      "parameters": [
+        "Inner Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctagonSymmetric",
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Tap Layer",
+        "Tap Length",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctagonSymmetric_v2",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctagonSymmetric_v3",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/OctagonSymmetric_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "OctagonSymmetric_v4",
+      "parameter_count": 16,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension Ratio",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tapped",
+        "Tap Layer",
+        "Tap Length",
+        "Tap Width",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_MLS",
+      "parameter_count": 10,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_MLS_v2",
+      "parameter_count": 11,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_MLS_v3",
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Tapped",
+        "CTap Layer",
+        "CTap Length",
+        "CTap Width"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_MLS_v4",
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension Ratio",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Tapped",
+        "CTap Layer",
+        "CTap Length",
+        "CTap Width"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Octagon_MLS_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_MLS_v5",
+      "parameter_count": 15,
+      "parameters": [
+        "Inlen",
+        "Width",
+        "Spacing",
+        "Nturn",
+        "Side Extension Ratio",
+        "Opening",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2",
+        "Aspect Ratio",
+        "Tapped",
+        "CTap Layer",
+        "CTap Length",
+        "CTap Width"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/octagon22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_v2",
+      "parameter_count": 8,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/octagon22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_v3",
+      "parameter_count": 9,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Side Extension"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/octagon22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_v4",
+      "parameter_count": 9,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Side Extension Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Octagon_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Octagon_v5",
+      "parameter_count": 9,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Side Extension Ratio"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "OffsetSlot",
+      "parameter_count": 8,
+      "parameters": [
+        "Width",
+        "Spacing",
+        "Height",
+        "Amount",
+        "Offset1",
+        "Layer1",
+        "Offset2",
+        "Layer2"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "PGS_1",
+      "parameter_count": 7,
+      "parameters": [
+        "size",
+        "spacing",
+        "width",
+        "layer",
+        "pin_width",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "PGS_1_VarShape",
+      "parameter_count": 8,
+      "parameters": [
+        "size",
+        "spacing",
+        "width",
+        "layer",
+        "shape",
+        "pin_width",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "PGS_AdvNode",
+      "parameter_count": 7,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "shape",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "PGS_AdvNode_VarLayer",
+      "parameter_count": 8,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "top layer",
+        "shape",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "PGS_AdvNode_VarLayer_v2",
+      "parameter_count": 9,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "top layer",
+        "top layer direction",
+        "shape",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "PGS_AspectRatio",
+      "parameter_count": 8,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "layer",
+        "pin_width",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "PGS_AspectRatio_VarShape",
+      "parameter_count": 9,
+      "parameters": [
+        "size",
+        "aspectRatio",
+        "spacing",
+        "width",
+        "layer",
+        "shape",
+        "pin_width",
+        "pin_extension",
+        "pin_direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "PGS_and_GR",
+      "parameter_count": 11,
+      "parameters": [
+        "pgs_size",
+        "pgs_spacing",
+        "pgs_width",
+        "pgs_layer",
+        "pgs_pin_width",
+        "pgs_pin_extension",
+        "pgs_pin_direction",
+        "gr_size",
+        "gr_width",
+        "gr_layer",
+        "gr_shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "PGS_and_GR_VarShape",
+      "parameter_count": 12,
+      "parameters": [
+        "pgs_size",
+        "pgs_spacing",
+        "pgs_width",
+        "pgs_layer",
+        "pgs_shape",
+        "pgs_pin_width",
+        "pgs_pin_extension",
+        "pgs_pin_direction",
+        "gr_size",
+        "gr_width",
+        "gr_layer",
+        "gr_shape"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Rectangular_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Rectangular",
+      "parameter_count": 7,
+      "parameters": [
+        "Outer Length",
+        "Outer Height",
+        "Width",
+        "Spacing",
+        "No. of Segments",
+        "Layer",
+        "Cross Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "SolidGround",
+      "parameter_count": 3,
+      "parameters": [
+        "Length",
+        "Height",
+        "Layer"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": true,
+      "name": "SolidGroundWPin",
+      "parameter_count": 3,
+      "parameters": [
+        "Length",
+        "Height",
+        "Layer"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Square_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Square",
+      "parameter_count": 6,
+      "parameters": [
+        "Outer length",
+        "Width",
+        "Spacing",
+        "No. of Segments",
+        "Layer",
+        "Cross Layer"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "SquareBalun",
+      "parameter_count": 10,
+      "parameters": [
+        "Side Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "SquareBalun_v2",
+      "parameter_count": 10,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Square_MLS_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Square_MLS",
+      "parameter_count": 8,
+      "parameters": [
+        "Nseg",
+        "Outlen",
+        "Width",
+        "Spacing",
+        "Top Layer",
+        "Layer Options",
+        "Arm Length 1",
+        "Arm Length 2"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        1
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "StackedBalun_wCNT",
+      "parameter_count": 24,
+      "parameters": [
+        "Left Outer radius",
+        "Left Origin x cordinate",
+        "Left Origin y cordinate",
+        "Right Outer radius",
+        "Width",
+        "Spacing",
+        "Number of Sides",
+        "Number of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm length",
+        "Layer_top",
+        "Cross layer_top",
+        "Layer_bottom",
+        "Cross_layer_bottom",
+        "Aspect Ratio",
+        "Top Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "StackedBalun_wCNT_v2",
+      "parameter_count": 26,
+      "parameters": [
+        "Left Outer radius",
+        "Left Origin x cordinate",
+        "Left Origin y cordinate",
+        "Right Outer radius",
+        "Width",
+        "Spacing",
+        "Number of Sides",
+        "Number of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm length",
+        "Layer_top",
+        "Cross layer_top",
+        "Layer_bottom",
+        "Cross_layer_bottom",
+        "Aspect Ratio",
+        "Left Side Extension",
+        "Right Side Extension",
+        "Top Ctap Layers 1",
+        "Ctap Flip 1",
+        "Ctap Length 1",
+        "Ctap Width 1",
+        "Top Ctap Layers 2",
+        "Ctap Flip 2",
+        "Ctap Length 2",
+        "Ctap Width 2"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        16,
+        17
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "StackedBalun_wCNT_v3",
+      "parameter_count": 27,
+      "parameters": [
+        "Top Coil Outer radius",
+        "Origin x cordinate",
+        "Origin y cordinate",
+        "Bottom Coil Outer radius",
+        "Width",
+        "Spacing",
+        "Number of Sides",
+        "Number of Turns",
+        "Bottom Coil Orientation",
+        "Vertical Opening",
+        "End Opening",
+        "Arm length",
+        "Top Coil Layer",
+        "Top Coil Cross layer",
+        "Bottom Coil Layer",
+        "Bottom Coil Cross layer",
+        "Aspect Ratio",
+        "Top Coil Side Extension",
+        "Bottom Coil Side Extension",
+        "Top Coil Ctap Layer",
+        "Top Coil Ctap Flip",
+        "Top Coil Ctap Length",
+        "Top Coil Ctap Width",
+        "Bottom Coil Ctap Layer",
+        "Bottom Coil Ctap Flip",
+        "Bottom Coil Ctap Length",
+        "Bottom Coil Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        17,
+        18
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "StackedBalun_wCNT_v4",
+      "parameter_count": 27,
+      "parameters": [
+        "Top Coil Outer radius",
+        "Origin x cordinate",
+        "Origin y cordinate",
+        "Bottom Coil Outer radius",
+        "Width",
+        "Spacing",
+        "Number of Sides",
+        "Number of Turns",
+        "Bottom Coil Orientation",
+        "Vertical Opening",
+        "End Opening",
+        "Arm length",
+        "Top Coil Layer",
+        "Top Coil Cross layer",
+        "Bottom Coil Layer",
+        "Bottom Coil Cross layer",
+        "Aspect Ratio",
+        "Top Coil Side Extension Ratio",
+        "Bottom Coil Side Extension Ratio",
+        "Top Coil Ctap Layer",
+        "Top Coil Ctap Flip",
+        "Top Coil Ctap Length",
+        "Top Coil Ctap Width",
+        "Bottom Coil Ctap Layer",
+        "Bottom Coil Ctap Flip",
+        "Bottom Coil Ctap Length",
+        "Bottom Coil Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        17,
+        18
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/StackedBalun_wCNT_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "StackedBalun_wCNT_v5",
+      "parameter_count": 27,
+      "parameters": [
+        "Top Coil Outer Length",
+        "Origin x cordinate",
+        "Origin y cordinate",
+        "Bottom Coil Outer Length",
+        "Width",
+        "Spacing",
+        "Number of Sides",
+        "Number of Turns",
+        "Bottom Coil Orientation",
+        "Vertical Opening",
+        "End Opening",
+        "Arm length",
+        "Top Coil Layer",
+        "Top Coil Cross layer",
+        "Bottom Coil Layer",
+        "Bottom Coil Cross layer",
+        "Aspect Ratio",
+        "Top Coil Side Extension Ratio",
+        "Bottom Coil Side Extension Ratio",
+        "Top Coil Ctap Layer",
+        "Top Coil Ctap Flip",
+        "Top Coil Ctap Length",
+        "Top Coil Ctap Width",
+        "Bottom Coil Ctap Layer",
+        "Bottom Coil Ctap Flip",
+        "Bottom Coil Ctap Length",
+        "Bottom Coil Ctap Width"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        17,
+        18
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Sym_Overlay_Transformer",
+      "parameter_count": 13,
+      "parameters": [
+        "Inductor1 Top Layer",
+        "Inductor1 # of Layers",
+        "Inductor2 Top Layer",
+        "Inductor2 # of Layers",
+        "Shape",
+        "Inductor1 Width",
+        "Inductor2 Width",
+        "Outer Radius",
+        "Aspect Ratio",
+        "No. of Turns",
+        "Spacing",
+        "Arm Opening",
+        "Arm Length"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        5,
+        6,
+        7,
+        9,
+        10
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Sym_Overlay_Transformer_v2",
+      "parameter_count": 14,
+      "parameters": [
+        "Inductor1 Top Layer",
+        "Inductor1 # of Layers",
+        "Inductor2 Top Layer",
+        "Inductor2 # of Layers",
+        "Shape",
+        "Inductor1 Width",
+        "Inductor2 Width",
+        "Outer Radius",
+        "Aspect Ratio",
+        "Side Extension",
+        "No. of Turns",
+        "Spacing",
+        "Arm Opening",
+        "Arm Length"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        5,
+        6,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Sym_Overlay_Transformer_v3",
+      "parameter_count": 14,
+      "parameters": [
+        "Inductor1 Top Layer",
+        "Inductor1 # of Layers",
+        "Inductor2 Top Layer",
+        "Inductor2 # of Layers",
+        "Shape",
+        "Inductor1 Width",
+        "Inductor2 Width",
+        "Outer Radius",
+        "Aspect Ratio",
+        "Side Extension Ratio",
+        "No. of Turns",
+        "Spacing",
+        "Arm Opening",
+        "Arm Length"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        5,
+        6,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Sym_Overlay_Transformer_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Sym_Overlay_Transformer_v4",
+      "parameter_count": 14,
+      "parameters": [
+        "Inductor1 Top Layer",
+        "Inductor1 # of Layers",
+        "Inductor2 Top Layer",
+        "Inductor2 # of Layers",
+        "Shape",
+        "Inductor1 Width",
+        "Inductor2 Width",
+        "Outer Length",
+        "Aspect Ratio",
+        "Side Extension Ratio",
+        "No. of Turns",
+        "Spacing",
+        "Arm Opening",
+        "Arm Length"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "Inductance"
+        ],
+        5,
+        6,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/symmetric22x22.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Symmetric",
+      "parameter_count": 12,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross layer",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Symmetric_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Symmetric_v2",
+      "parameter_count": 12,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross layer",
+        "Aspect Ratio",
+        "Width Step"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/TCoil_FlatWiring_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_FlatWiring",
+      "parameter_count": 18,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing of Top Winding",
+        "Spacing of Bottom Winding",
+        "Number of Turns, Top Winding",
+        "Number of Turns, Bottom Winding",
+        "Top Winding Layer",
+        "Bottom Winding Layer",
+        "Center-tap Direction",
+        "Center-tap Layer",
+        "Center-tap Length",
+        "Center-tap Width",
+        "Arm Length",
+        "Left Arm Direction",
+        "Right Arm Direction",
+        "Horizontal Offset",
+        "Vertical Offset",
+        "Shrink Factor of Bottom Winding"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(zd12)",
+          "Total Inductance"
+        ],
+        0
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_OctFlatWiring",
+      "parameter_count": 19,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing of Top Winding",
+        "Spacing of Bottom Winding",
+        "Number of Turns, Top Winding",
+        "Number of Turns, Bottom Winding",
+        "Side Extension",
+        "Top Winding Layer",
+        "Bottom Winding Layer",
+        "Center-tap Direction",
+        "Center-tap Layer",
+        "Center-tap Length",
+        "Center-tap Width",
+        "Arm Length",
+        "Left Arm Direction",
+        "Right Arm Direction",
+        "Horizontal Offset",
+        "Vertical Offset",
+        "Shrink Factor of Bottom Winding"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(zd12)",
+          "Total Inductance"
+        ],
+        0,
+        6
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_OctFlatWiring_v2",
+      "parameter_count": 19,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing of Top Winding",
+        "Spacing of Bottom Winding",
+        "Number of Turns, Top Winding",
+        "Number of Turns, Bottom Winding",
+        "Side Extension Ratio",
+        "Top Winding Layer",
+        "Bottom Winding Layer",
+        "Center-tap Direction",
+        "Center-tap Layer",
+        "Center-tap Length",
+        "Center-tap Width",
+        "Arm Length",
+        "Left Arm Direction",
+        "Right Arm Direction",
+        "Horizontal Offset",
+        "Vertical Offset",
+        "Shrink Factor of Bottom Winding"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(zd12)",
+          "Total Inductance"
+        ],
+        0,
+        6
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/TCoil_StackWiring_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_StackWiring",
+      "parameter_count": 11,
+      "parameters": [
+        "Outer Width",
+        "Outer Height",
+        "Width",
+        "Spacing",
+        "Top Winding Layer",
+        "Bottom Winding Layer",
+        "Center-tap Layer",
+        "Center-tap Length",
+        "Center-tap Width",
+        "Center-tap Height",
+        "Arm Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(zd12)",
+          "Total Inductance"
+        ],
+        0
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_Symmetric_AlterW",
+      "parameter_count": 14,
+      "parameters": [
+        "Inner Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Opening",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension",
+        "Shape",
+        "Layer",
+        "Alter Layer",
+        "Center Tap Width",
+        "Center Tap Layer",
+        "Opposite Arms "
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(yd(1,2))",
+          "Differential inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_Symmetric_AlterW_v2",
+      "parameter_count": 14,
+      "parameters": [
+        "Inner Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Arm Opening",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension Ratio",
+        "Shape",
+        "Layer",
+        "Alter Layer",
+        "Center Tap Width",
+        "Center Tap Layer",
+        "Opposite Arms "
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(yd(1,2))",
+          "Differential inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_Symmetric_FlexCross_OppoArm",
+      "parameter_count": 15,
+      "parameters": [
+        "Inner Length",
+        "Width",
+        "Cross Width",
+        "Spacing",
+        "Cross Spacing",
+        "No. of Turns",
+        "Arm Opening",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension",
+        "Shape",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Width",
+        "Center Tap Layer"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/yd(1,2))",
+          "Ld"
+        ],
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/TCoil_SymFlexCrossOppoArm_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "TCoil_Symmetric_FlexCross_OppoArm_v2",
+      "parameter_count": 15,
+      "parameters": [
+        "Inner Length",
+        "Width",
+        "Cross Width",
+        "Spacing",
+        "Cross Spacing",
+        "No. of Turns",
+        "Arm Opening",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension Ratio",
+        "Shape",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Width",
+        "Center Tap Layer"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/yd(1,2))",
+          "Ld"
+        ],
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_Balun_FlexRatio_HQ",
+      "parameter_count": 25,
+      "parameters": [
+        "No. of Primary Coil turns",
+        "No. of Secondary Coil turns",
+        "Primary Coil Arm Side",
+        "Primary Coil Arm Turn",
+        "Secondary Coil Arm Side",
+        "Secondary Coil Arm Turn",
+        "Pattern ID",
+        "Layer",
+        "Cross Layer",
+        "Shape",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "Side Extension",
+        "Aspect Ratio",
+        "Primary Coil Arm Length",
+        "Primary Coil Opening",
+        "Primary Coil Ctap Layer",
+        "Primary Coil Ctap Length",
+        "Primary Coil Ctap Width",
+        "Secondary Coil Arm Length",
+        "Secondary Coil Opening",
+        "Secondary Coil Ctap Layer",
+        "Secondary Coil Ctap Length",
+        "Secondary Coil Ctap Width"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_Balun_FlexRatio_HQ_v2",
+      "parameter_count": 27,
+      "parameters": [
+        "No. of Primary Coil turns",
+        "No. of Secondary Coil turns",
+        "Primary Coil Arm Side",
+        "Primary Coil Arm Turn",
+        "Secondary Coil Arm Side",
+        "Secondary Coil Arm Turn",
+        "Pattern ID",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Shape",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "Side Extension",
+        "Aspect Ratio",
+        "Primary Coil Arm Length",
+        "Primary Coil Opening",
+        "Primary Coil Ctap Layer",
+        "Primary Coil Ctap Length",
+        "Primary Coil Ctap Width",
+        "Secondary Coil Arm Length",
+        "Secondary Coil Opening",
+        "Secondary Coil Ctap Layer",
+        "Secondary Coil Ctap Length",
+        "Secondary Coil Ctap Width"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_Balun_FlexRatio_HQ_v3",
+      "parameter_count": 27,
+      "parameters": [
+        "No. of Primary Coil turns",
+        "No. of Secondary Coil turns",
+        "Primary Coil Arm Side",
+        "Primary Coil Arm Turn",
+        "Secondary Coil Arm Side",
+        "Secondary Coil Arm Turn",
+        "Pattern ID",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Shape",
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary Coil Arm Length",
+        "Primary Coil Opening",
+        "Primary Coil Ctap Layer",
+        "Primary Coil Ctap Length",
+        "Primary Coil Ctap Width",
+        "Secondary Coil Arm Length",
+        "Secondary Coil Opening",
+        "Secondary Coil Ctap Layer",
+        "Secondary Coil Ctap Length",
+        "Secondary Coil Ctap Width"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_Balun_FlexRatio_HQ_v4",
+      "parameter_count": 27,
+      "parameters": [
+        "No. of Primary Coil turns",
+        "No. of Secondary Coil turns",
+        "Primary Coil Arm Side",
+        "Primary Coil Arm Turn",
+        "Secondary Coil Arm Side",
+        "Secondary Coil Arm Turn",
+        "Pattern ID",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Shape",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary Coil Arm Length",
+        "Primary Coil Opening",
+        "Primary Coil Ctap Layer",
+        "Primary Coil Ctap Length",
+        "Primary Coil Ctap Width",
+        "Secondary Coil Arm Length",
+        "Secondary Coil Opening",
+        "Secondary Coil Ctap Layer",
+        "Secondary Coil Ctap Length",
+        "Secondary Coil Ctap Width"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_Balun_FlexRatio_HQ_v5",
+      "parameter_count": 29,
+      "parameters": [
+        "No. of Primary Coil turns",
+        "No. of Secondary Coil turns",
+        "Primary Coil Arm Side",
+        "Primary Coil Arm Turn",
+        "Secondary Coil Arm Side",
+        "Secondary Coil Arm Turn",
+        "Pattern ID",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Shape",
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "Side Extension Ratio",
+        "Aspect Ratio",
+        "Primary Coil Arm Length",
+        "Primary Coil Opening",
+        "Primary Coil Ctap Layer",
+        "Primary Coil Ctap Length",
+        "Primary Coil Ctap Width",
+        "Primary Coil Ctap Direction",
+        "Secondary Coil Arm Length",
+        "Secondary Coil Opening",
+        "Secondary Coil Ctap Layer",
+        "Secondary Coil Ctap Length",
+        "Secondary Coil Ctap Width",
+        "Secondary Coil Ctap Direction"
+      ],
+      "synthesis": []
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_FlexRatio",
+      "parameter_count": 16,
+      "parameters": [
+        "Turn Pattern",
+        "Outer Radius",
+        "Primary Trace Width",
+        "Secondary Trace Width",
+        "Spacing",
+        "No. of Sides",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Arm Length",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Primary Width Step",
+        "Secondary Width Step",
+        "Inner Spiral Radius"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_FlexRatio_v2",
+      "parameter_count": 17,
+      "parameters": [
+        "Turn Pattern",
+        "Outer Radius",
+        "Primary Trace Width",
+        "Secondary Trace Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Arm Length",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Primary Width Step",
+        "Secondary Width Step",
+        "Inner Spiral Radius"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_FlexRatio_v3",
+      "parameter_count": 17,
+      "parameters": [
+        "Turn Pattern",
+        "Outer Radius",
+        "Primary Trace Width",
+        "Secondary Trace Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension Ratio",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Arm Length",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Primary Width Step",
+        "Secondary Width Step",
+        "Inner Spiral Radius"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Transformer_FlexRatio_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_FlexRatio_v4",
+      "parameter_count": 17,
+      "parameters": [
+        "Turn Pattern",
+        "Outer Length",
+        "Primary Trace Width",
+        "Secondary Trace Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension Ratio",
+        "Primary End Opening",
+        "Secondary End Opening",
+        "Arm Length",
+        "Top Layer",
+        "Inductor Layers",
+        "Stacked Option",
+        "Cross Layer",
+        "Primary Width Step",
+        "Secondary Width Step",
+        "Inner Spiral Radius"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_Symmtric_Concentrix",
+      "parameter_count": 20,
+      "parameters": [
+        "Inner Length of Outer Coil",
+        "Gap",
+        "Width Outer",
+        "Width Inner",
+        "Spacing Outer",
+        "Spacing Inner",
+        "No. of Turns Outer",
+        "No. of Turns Inner",
+        "Width Step Inner",
+        "Arm Opening Outer",
+        "Arm Opening Inner",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Outer ON",
+        "Center Tap Outer Layer",
+        "Center Tap Inner ON",
+        "Center Tap Inner Layer"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Differential inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Transformer_Symmtric_Concentrix_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_Symmtric_Concentrix_v2",
+      "parameter_count": 20,
+      "parameters": [
+        "Inner Length of Outer Coil",
+        "Gap",
+        "Width Outer",
+        "Width Inner",
+        "Spacing Outer",
+        "Spacing Inner",
+        "No. of Turns Outer",
+        "No. of Turns Inner",
+        "Width Step Inner",
+        "Arm Opening Outer",
+        "Arm Opening Inner",
+        "Arm Length",
+        "Vertical Opening",
+        "Side Extension Ratio",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Outer ON",
+        "Center Tap Outer Layer",
+        "Center Tap Inner ON",
+        "Center Tap Inner Layer"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Differential inductance"
+        ],
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_p2s1",
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "No. of Sides",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_p2s1_v2",
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "No. of Sides",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_p3s1",
+      "parameter_count": 14,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_p3s1_v2",
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_p3s1_v3",
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension Ratio",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/Transformer_p3s1_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "Transformer_p3s1_v4",
+      "parameter_count": 15,
+      "parameters": [
+        "Outer Length",
+        "Width",
+        "Spacing",
+        "No. of Sides",
+        "Side Extension Ratio",
+        "Vertical Opening",
+        "End Opening",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Tap Number",
+        "Tap1 Layer",
+        "Tap1 Length",
+        "Tap2 Layer",
+        "Tap2 Length"
+      ],
+      "synthesis": [
+        [
+          "-1/(2*pi*f)*imag(zz12)",
+          "mutual inductance"
+        ],
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": "/data/eda/lorentz/peakview/Pixmaps/XLines_64.png",
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "XLines",
+      "parameter_count": 16,
+      "parameters": [
+        "Stacked Option",
+        "Top Layer",
+        "No. of Layers",
+        "No. of Lines",
+        "Length",
+        "Width",
+        "Spacing",
+        "Offset Y",
+        "Top Layer 2",
+        "No. of Layers 2",
+        "No. of Underpath Layers 2",
+        "No. of Lines 2",
+        "Length 2",
+        "Width 2",
+        "Spacing 2",
+        "Offset X"
+      ],
+      "synthesis": [
+        [
+          "L",
+          "inductance"
+        ],
+        4,
+        5,
+        12,
+        13
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "advOctSymmetric",
+      "parameter_count": 14,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Center Tap Layer",
+        "Aspect Ratio",
+        "Width Step",
+        "Tap Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    },
+    {
+      "em_simulation_type": "",
+      "icon_path": null,
+      "is_cdf": true,
+      "is_dynamic": false,
+      "name": "advOctSymmetric2",
+      "parameter_count": 13,
+      "parameters": [
+        "Outer Radius",
+        "Width",
+        "Spacing",
+        "No. of Turns",
+        "Vertical Opening",
+        "End Opening",
+        "Side Extension",
+        "Arm Length",
+        "Layer",
+        "Cross Layer",
+        "Aspect Ratio",
+        "Width Step",
+        "Tap Length"
+      ],
+      "synthesis": [
+        [
+          "1/(2*pi*f)*imag(4/(y11+y22-y12-y21))",
+          "Diff inductance"
+        ],
+        0,
+        3
+      ]
+    }
+  ],
+  "source": "PeakDesign runtime circuit.macroDevices"
+}

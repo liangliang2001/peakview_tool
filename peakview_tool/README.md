@@ -120,7 +120,7 @@ python .\peakview_tool\peakview_tool.py design `
 
 The default project/profile/library are the ones validated in this thread:
 
-- Project: `/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview`
+- Project: `/T22_Codex/Codex_Lib/.peakview`
 - Profile: `RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)`
 - Cadence library: `Codex_Lib`
 

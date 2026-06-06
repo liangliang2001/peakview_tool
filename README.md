@@ -35,7 +35,7 @@ It talks to the remote Linux/Cadence session through the existing
 loaded in CIW:
 
 ```lisp
-load("/tmp/virtuoso_bridge_zhaoliang_2/virtuoso_bridge/virtuoso_setup.il")
+load("/tmp/virtuoso_bridge_user/virtuoso_bridge/virtuoso_setup.il")
 ```
 
 ## Quick Checks

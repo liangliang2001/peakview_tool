@@ -1,6 +1,6 @@
 {
   "description": "AdvOctSymmetric inductor, T22 typical profile, 1-100 GHz, 300 points",
-  "project": "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview",
+  "project": "/T22_Codex/Codex_Lib/.peakview",
   "profile": "RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)",
   "lib": "Codex_Lib",
   "pcircuit": "AdvOctSymmetric",

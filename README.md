@@ -18,12 +18,12 @@ See `peakview_tool/README.md` for usage examples and the validated API surface.
 ## Validated Environment
 
 - PeakView project:
-  `/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview`
+  `/path_to_cadence_lib/Codex_Lib/.peakview`
 - Cadence library: `Codex_Lib`
 - Profile:
   `RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)`
 - Bridge setup in Virtuoso CIW:
-  `load("/tmp/virtuoso_bridge_zhaoliang_2/virtuoso_bridge/virtuoso_setup.il")`
+  `load("/tmp/virtuoso_bridge_user/virtuoso_bridge/virtuoso_setup.il")`
 
 ## Validation Artifacts
 

@@ -24,7 +24,7 @@ from typing import Any
 
 
 DEFAULT_BRIDGE_ROOT = Path(os.environ.get("PEAKVIEW_BRIDGE_ROOT", r"E:\Agent\virtuoso-bridge-lite-main"))
-DEFAULT_PROJECT = "/mnt/data/OEIC/zhaoliang_2/T22_Codex/Codex_Lib/.peakview"
+DEFAULT_PROJECT = "/T22_Codex/Codex_Lib/.peakview"
 DEFAULT_PROFILE = "RC_IRCX_CLN22ULP_1P8M+UT-ALRDL_5X1Z1U_typical(DRM:T-N22-CL-DR-001 v1.5)"
 DEFAULT_LIB = "Codex_Lib"
 DEFAULT_PEAKDESIGN = "/data/eda/lorentz/peakview/bin/peakdesign"
